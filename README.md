@@ -11,12 +11,12 @@
 ## :art: Project Structure
 ```
 📁 app/src/main/java/com/jionchu/lovetest
- ├ 📁 fragment : 데이터베이스 관련 폴더
+ ├ 📁 fragment : 프래그먼트 폴더
  │  ├ 📄 MainFragment.kt : 테스트 시작 화면
  │  ├ 📄 QuestionFragment.kt : 문제 설명 화면
  │  ├ 📄 ResultFragment.kt : 테스트 결과 화면
  │  └ 📄 SelectionFragment.kt : 보기 선택 화면
- └ 📄 MainActivity.kt : 테스트가 진행되는 (모든 fragment가 속하는) 화면
+ └ 📄 MainActivity.kt : 테스트가 진행되는 Navigation Host 화면
 ```
 
 ## :hammer: Development Environment
